@@ -18,7 +18,7 @@ jobs:
         node-version: '16.x'
 
     - name: Routes
-      run: cd ./cancun-adventures-cancun_adventures-6fb4bfd04759/cancun_Adventures
+      run: cd ./cancun_Adventures/
 
     - name: Install dependencies
       run: npm install
@@ -27,7 +27,7 @@ jobs:
       run: npm install -g @angular/cli
 
     - name: Routes
-      run: cd ./cancun-adventures-cancun_adventures-6fb4bfd04759/cancun_Adventures
+      run: cd ./cancun_Adventures/
 
     - name: Build
       run: ng build
