@@ -27,7 +27,7 @@ jobs:
       run: npm install -g @angular/cli@latest
 
     - name: Routes
-      run: cd cancun_Adventures
+      run: cd /Users/omarc/Videos/cancun-adventures-cancun_adventures-6fb4bfd04759/cancun_Adventures
 
     - name: Build
       run: npm run build
