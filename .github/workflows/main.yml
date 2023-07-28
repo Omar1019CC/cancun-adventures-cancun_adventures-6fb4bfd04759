@@ -30,7 +30,7 @@ jobs:
       run: cd cancun_Adventures
 
     - name: Build
-      run: ng build
+      run: cd cancun_Adventures, ng build
 
     - name: Deploy
       if: success()
