@@ -25,10 +25,7 @@ jobs:
 
     - name: Angular
       run: npm install -g @angular/cli@latest
-
-    - name: Routes
-      run: cd ./cancun_Adventures/
-
+      
     - name: Build
       run: npm run build
 
